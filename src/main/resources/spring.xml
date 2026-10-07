@@ -1,0 +1,10 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Bean definitions go here -->
+    <bean class="org.example.Dev" autowire="byType"></bean>
+    <bean class="org.example.Laptop" autowire="byType" primary="true"></bean>
+    <bean class="org.example.Desktop" autowire="byType"></bean>
+</beans>
